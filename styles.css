@@ -161,3 +161,11 @@ input:focus, textarea:focus {
   .nav-links.open { display: flex; }
   .hero-stats { grid-template-columns: 1fr; }
 }
+body{
+background:url("Screenshot_2026_0527_143010.jpg");
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+color:white;
+font-family:Arial;
+}
