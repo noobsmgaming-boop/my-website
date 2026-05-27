@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PulsePlay Arena | Modern Gaming Portal</title>
+  <meta name="description" content="PulsePlay Arena is a modern gaming portal featuring top games, esports events, and a quick contact form." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="navbar container" aria-label="Primary navigation">
+      <a href="#top" class="brand">PulsePlay<span>Arena</span></a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primaryMenu">☰</button>
+      <ul class="nav-links" id="primaryMenu">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#games">Games</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="container hero-content">
+        <p class="eyebrow">Next-Gen Gaming Community</p>
+        <h1>Play Hard, Rank Higher, Join the Arena.</h1>
+        <p class="hero-text">Explore trending titles, track upcoming events, and connect with fellow gamers across competitive and casual scenes.</p>
+        <div class="hero-actions">
+          <a href="#games" class="btn btn-primary">Explore Games</a>
+          <a href="#events" class="btn btn-outline">View Events</a>
+        </div>
+        <ul class="hero-stats" aria-label="Platform stats">
+          <li><strong>120K+</strong><span>Players</span></li>
+          <li><strong>450+</strong><span>Tournaments</span></li>
+          <li><strong>98%</strong><span>Positive Reviews</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="games container" id="games">
+      <div class="section-heading">
+        <h2>Featured Games</h2>
+        <p>Fresh picks from FPS, RPG, battle royale, and racing categories.</p>
+      </div>
+      <div class="games-grid">
+        <article class="game-card">
+          <h3>Neon Strike</h3>
+          <p>Cyberpunk tactical shooter with ranked 5v5 maps and weekly ladder resets.</p>
+          <span>Genre: FPS</span>
+        </article>
+        <article class="game-card">
+          <h3>Realm Forged</h3>
+          <p>Fantasy action-RPG featuring cooperative raids and dynamic world events.</p>
+          <span>Genre: RPG</span>
+        </article>
+        <article class="game-card">
+          <h3>Turbo Grid X</h3>
+          <p>High-speed competitive racing with custom tracks, clans, and seasonal rewards.</p>
+          <span>Genre: Racing</span>
+        </article>
+        <article class="game-card">
+          <h3>Shadow Drop</h3>
+          <p>Stealth-focused multiplayer extraction game with rotating mission contracts.</p>
+          <span>Genre: Tactical</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="events container" id="events">
+      <div class="section-heading">
+        <h2>Upcoming Events</h2>
+      </div>
+      <div class="event-list">
+        <article class="event-card">
+          <p class="event-date">Jun 08, 2026</p>
+          <h3>Pulse Cup Qualifier</h3>
+          <p>Open online qualifier for teams worldwide.</p>
+        </article>
+        <article class="event-card">
+          <p class="event-date">Jun 14, 2026</p>
+          <h3>Community Scrim Night</h3>
+          <p>Casual 10-lobby scrims with coaching and VOD reviews.</p>
+        </article>
+        <article class="event-card">
+          <p class="event-date">Jun 22, 2026</p>
+          <h3>Creator Showdown</h3>
+          <p>Influencer-led tournament with live commentary and giveaways.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container contact-wrap">
+        <div>
+          <h2>Contact PulsePlay</h2>
+          <p>Need support, partnership info, or tournament details? We usually respond within 24 hours.</p>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required />
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 PulsePlay Arena. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
