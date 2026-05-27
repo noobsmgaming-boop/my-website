@@ -1,200 +1,86 @@
-<section class="virat">
-
-<h2>King Kohli 👑</h2>
-
-<img src="Screenshot_2026_0527_143030.jpg">
-
-<p style="margin-top:20px;font-size:20px;">
-Virat Kohli Forever ❤️
-</p>
-
-</section>
-
-
-<section class="section" id="team">
-
-<h2>My RCB Team 🔥</h2>
-
-<div class="gallery">
-
-<img src="file_000000005be47207a7607526be524871.jpg">
-
-<img src="file_0000000028ac71faae4ef5abc51daccc.jpg">
-
-<img src="Screenshot_2026_0527_143048.jpg">
-
-</div>
-
-</section>          <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Saurabh RCB Army</title>
-
-<style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial, sans-serif;
-}
-
-body{
-background:black;
-color:white;
-}
-
-header{
-height:100vh;
-background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),
-url('https://wallpapercave.com/wp/wp8789906.jpg');
-background-size:cover;
-background-position:center;
-display:flex;
-align-items:center;
-justify-content:center;
-text-align:center;
-padding:20px;
-}
-
-.hero{
-max-width:900px;
-}
-
-.hero img{
-width:220px;
-height:220px;
-border-radius:50%;
-border:5px solid red;
-object-fit:cover;
-box-shadow:0 0 25px red;
-margin-bottom:20px;
-}
-
-.hero h1{
-font-size:55px;
-color:#ff0000;
-text-shadow:0 0 15px red;
-}
-
-.hero p{
-font-size:22px;
-margin-top:10px;
-color:#ddd;
-}
-
-.btn{
-display:inline-block;
-margin-top:25px;
-padding:14px 30px;
-background:red;
-color:white;
-text-decoration:none;
-border-radius:30px;
-font-size:20px;
-box-shadow:0 0 15px red;
-}
-
-.section{
-padding:60px 20px;
-text-align:center;
-}
-
-.section h2{
-font-size:40px;
-margin-bottom:30px;
-color:red;
-}
-
-.gallery{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:20px;
-}
-
-.gallery img{
-width:100%;
-border-radius:20px;
-border:3px solid red;
-box-shadow:0 0 20px rgba(255,0,0,.5);
-}
-
-.virat{
-padding:60px 20px;
-text-align:center;
-background:#111;
-}
-
-.virat img{
-width:300px;
-max-width:90%;
-border-radius:20px;
-border:4px solid red;
-box-shadow:0 0 20px red;
-margin-top:20px;
-}
-
-footer{
-padding:25px;
-text-align:center;
-background:#0a0a0a;
-color:#aaa;
-}
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RCB Fan Army | Saurabh Maladhare</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
+  <header class="hero" id="home">
+    <nav class="navbar container">
+      <h2 class="brand">RCB <span>Fan Army</span></h2>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#virat">Virat Era</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#army">Fan Army</a></li>
+      </ul>
+    </nav>
 
-<header>
-<div class="hero">
+    <div class="hero-content container reveal">
+      <p class="eyebrow">Premium Tribute Site</p>
+      <h1>Saurabh Maladhare's Royal Challengers Bangalore Fan Fortress</h1>
+      <p>
+        A high-voltage fan experience with neon red visuals, fearless chants, and the passion of the RCB faithful.
+        Built for one mission: backing the red and gold with full Fan Army energy.
+      </p>
+      <a href="#gallery" class="cta">Explore the Roar</a>
+    </div>
+  </header>
 
-<img src="file_0000000089747207ae4d676c7cd06605.jpg" alt="Saurabh">
+  <main>
+    <section class="virat-section container reveal" id="virat">
+      <div>
+        <p class="eyebrow">King Kohli Section</p>
+        <h2>Virat Kohli — The Fire Behind RCB</h2>
+        <p>
+          Aggression, loyalty, and unmatched drive. This hero panel celebrates Virat Kohli's legacy and the fighting
+          spirit he brings to every over in red.
+        </p>
+        <ul class="virat-points">
+          <li>Iconic chasing masterclass energy</li>
+          <li>Unbreakable commitment to RCB</li>
+          <li>Inspiration for every fan in the stands</li>
+        </ul>
+      </div>
+      <img src="Screenshot_2026_0527_143030.jpg" alt="Virat Kohli in RCB colors" />
+    </section>
 
-<h1>Saurabh RCB Army</h1>
+    <section class="gallery-section" id="gallery">
+      <div class="container reveal">
+        <p class="eyebrow">Wall of Glory</p>
+        <h2>Photo Gallery</h2>
+        <div class="gallery-grid">
+          <img src="file_000000005be47207a7607526be524871.jpg" alt="RCB match crowd celebration" />
+          <img src="file_0000000028ac71faae4ef5abc51daccc.jpg" alt="RCB team spirit moment" />
+          <img src="Screenshot_2026_0527_143048.jpg" alt="RCB fan tribute frame" />
+          <img src="file_0000000089747207ae4d676c7cd06605.jpg" alt="Saurabh Maladhare RCB fan portrait" />
+        </div>
+      </div>
+    </section>
 
-<p>Ee Sala Cup Namde ❤️🏏</p>
+    <section class="army container reveal" id="army">
+      <h2>RCB Fan Army Command Center</h2>
+      <p>
+        We don't just watch matches — we live every ball. From pre-match chants to post-match pride, this is where
+        Saurabh Maladhare's Fan Army unites in one heartbeat: <strong>Ee Sala Cup Namde!</strong>
+      </p>
+      <div class="badges">
+        <span>Neon Red Pride</span>
+        <span>Chinnaswamy Vibes</span>
+        <span>Kohli Forever</span>
+      </div>
+    </section>
+  </main>
 
-<a href="#team" class="btn">View Team</a>
+  <footer>
+    <p>Made with passion for Saurabh Maladhare's RCB Fan Army ❤️</p>
+  </footer>
 
-</div>
-</header>
-
-<section class="virat">
-<h2>King Kohli 👑</h2>
-
-<img src="https://wallpapercave.com/wp/wp8789922.jpg">
-
-<p style="margin-top:20px;font-size:20px;">
-Virat Kohli Forever ❤️
-</p>
-</section>
-
-<section class="section" id="team">
-
-<h2>My RCB Team 🔥</h2>
-
-<div class="gallery">
-
-<img src="<img src="Screenshot_2026_0527_143030.jpg">
-<img src="TEAM2">
-<img src="TEAM3">
-<img src="TEAM4">
-
-</div>
-
-</section>
-
-<footer>
-<h3>Made By Saurabh RCB Army ❤️</h3>
-</footer>
-
+  <script src="script.js"></script>
 </body>
 </html>
-<h1>Saurabh Maladhare - Owner 👑</h1>
-
-<p>RCB Fan Army ❤️🏏</p>
-
-<h2>Manager : Sudhir 🔥</h2>
-<img src="Screenshot_2026_0527_143048.jpg" class="hero-img">
-<img src="Screenshot_2026_0527_143030.jpg" class="top-virat">
